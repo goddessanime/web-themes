@@ -43,10 +43,11 @@ def makeTemplate(name, creator, price, description, preview):
     json = json.replace("2023-04-25T21:52:57.458Z", getDate())
     json = json.replace("IMAGE_URL", preview)
 
-    if os.path.exists("template.json"):
-        os.remove("template.json")
-    with open("template.json", "w") as f:
+    firstLetter = name[0].upper()
+    with open("themes/{}/{}.json".format(firstLetter, name), "w") as f:
         f.write(json)
+
+    
     
     
 
@@ -93,11 +94,27 @@ if args[0] == "template":
     description = input("Description of template: ")
     preview = input("Preview image URL: ")
 
+    print("\n\n")
+
     choice = input("Are you sure you want to create a template with the following information? (y/n)\nName: {}\nCreator: {}\nPrice: {}\nDescription: {}\nPreview: {}\n\n> ".format(name, creator, price, description, preview))
     if choice == "y":
         print("Creating template...")
         makeTemplate(name, creator, price, description, preview)
-        print("Done!")
+        print("Template created successfully!")
+        print("You can find the template in themes/{}/{}.json".format(name[0].upper(), name))
+        fullPath = os.path.abspath("themes/{}/{}.json".format(name[0].upper(), name))
+        
+        print("Full path: {}".format(fullPath))
+
+        openFile = input("Would you like to open the file in your default text editor? (y/n)\n> ")
+        if openFile == "y":
+            os.startfile(fullPath)
+        elif openFile == "n":
+            print("Aborting...")
+            sys.exit(0)
+        else:
+            print("Invalid choice")
+            sys.exit(0)
     if choice == "n":
         print("Aborting...")
         sys.exit(0)
