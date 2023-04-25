@@ -53,25 +53,32 @@ def makeTemplate(name, creator, price, description, preview):
 
 args = sys.argv[1:]
 
+system = sys.platform
+
+if system == "win32":
+    os.system("cls")
+if system == "linux":
+    os.system("clear")
+else:
+    os.system("clear")
+
 if len(args) == 0:
     sys.exit("No arguments provided")
 
 if args[0] == "create":
-        # Make folders from A to Z
     letters = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 
     for letter in letters:
         os.mkdir(letter)
-        # Create a file in each folder called hello.txt
         with open(letter + "/hello.txt", "w") as f:
             f.write("This is just for git... AKA this file is useless (Just like your life)")
 
     print("Folders created successfully!")
 if args[0] == "delete":
-    # Delete folders from A to Z
     letters = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 
     for letter in letters:
+        os.remove(letter + "/hello.txt")
         os.rmdir(letter)
 
     print("Folders deleted successfully!")
