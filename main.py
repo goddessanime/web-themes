@@ -44,8 +44,12 @@ def makeTemplate(name, creator, price, description, preview):
     json = json.replace("IMAGE_URL", preview)
 
     firstLetter = name[0].upper()
-    with open("themes/{}/{}.json".format(firstLetter, name), "w") as f:
+    # make a new dir for it
+    os.mkdir("themes/" + firstLetter + "/" + name)
+    with open("themes/" + firstLetter + "/" + name + "/" + name + ".json", "w") as f:
         f.write(json)
+    with open("themes/" + firstLetter + "/" + name + "/" + name + ".css", "w") as f:
+        f.write("/* CSS HERE */")
 
     
     
@@ -82,6 +86,11 @@ if args[0] == "delete":
 
     for letter in letters:
         os.remove("themes/" + letter + "/hello.txt")
+        for root, dirs, files in os.walk("themes/" + letter, topdown=False):
+            for name in files:
+                os.remove(os.path.join(root, name))
+            for name in dirs:
+                os.rmdir(os.path.join(root, name))
         os.rmdir("themes/" + letter)
 
     print("Folders deleted successfully!")
