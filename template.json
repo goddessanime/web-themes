@@ -1,9 +1,9 @@
 {
-  "name": "TEMPLATE_NAME"
-  "creator": "DISCORD_ID"
-  "css": "CSS HERE"
+  "name": "TEMPLATE_NAME",
+  "creator": "DISCORD_ID",
+  "css": "CSS HERE",
   "price": 30,
-  "description": "TEMPLATE"
+  "description": "TEMPLATE",
   "created_at": {
     "$date": "2023-04-25T21:52:57.458Z"
   },
