@@ -55,11 +55,13 @@ args = sys.argv[1:]
 
 system = sys.platform
 
+
+
 if system == "win32":
     os.system("cls")
 if system == "linux":
     os.system("clear")
-else:
+elif system == "darwin":
     os.system("clear")
 
 if len(args) == 0:
@@ -69,8 +71,8 @@ if args[0] == "create":
     letters = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 
     for letter in letters:
-        os.mkdir(letter)
-        with open(letter + "/hello.txt", "w") as f:
+        os.mkdir("themes/" + letter)
+        with open("themes/" + letter + "/hello.txt", "w") as f:
             f.write("This is just for git... AKA this file is useless (Just like your life)")
 
     print("Folders created successfully!")
@@ -78,10 +80,11 @@ if args[0] == "delete":
     letters = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
 
     for letter in letters:
-        os.remove(letter + "/hello.txt")
-        os.rmdir(letter)
+        os.remove("themes/" + letter + "/hello.txt")
+        os.rmdir("themes/" + letter)
 
     print("Folders deleted successfully!")
+        
 
 if args[0] == "template":
     name = input("Name of template: ")
