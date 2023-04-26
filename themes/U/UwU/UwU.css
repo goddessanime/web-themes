@@ -20,7 +20,7 @@
 17. Step
 18. Knowledge
 19. FAQ
-20. Сollection
+20. ÃÂ¡ollection
 21. Author
 22. Profile
 23. Contacts
@@ -481,12 +481,12 @@ body::-webkit-scrollbar-thumb {
   margin-left: 0;
 }
 .header__nav-link--active {
-  color: #6164ff;
+  color: #87CEEB;
   cursor: default;
   font-weight: 500;
 }
 .header__nav-link--active:hover {
-  color: #6164ff !important;
+  color: #87CEEB !important;
 }
 .header__nav-link:hover,
 .header__nav-link[aria-expanded="true"] {
@@ -494,7 +494,7 @@ body::-webkit-scrollbar-thumb {
 }
 .header__nav-link:hover svg,
 .header__nav-link[aria-expanded="true"] svg {
-  fill: #6164ff;
+  fill: #87CEEB;
 }
 .header__nav-menu {
   display: block;
@@ -554,7 +554,7 @@ body::-webkit-scrollbar-thumb {
 }
 .header__nav-menu a:hover svg,
 .header__nav-menu a[aria-expanded="true"] svg {
-  fill: #6164ff;
+  fill: #87CEEB;
 }
 .header__nav-menu.show {
   z-index: 1000;
@@ -583,7 +583,7 @@ body::-webkit-scrollbar-thumb {
   bottom: 5px;
   left: 30px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -683,7 +683,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .header__profile-menu a:hover svg {
-  fill: #6164ff;
+  fill: #87CEEB;
 }
 .header__profile-menu.show {
   z-index: 1000;
@@ -712,7 +712,7 @@ body::-webkit-scrollbar-thumb {
   }
   .header__action--signin:hover a svg,
   .header__action--signin:hover button svg {
-    fill: #6164ff;
+    fill: #87CEEB;
   }
   .header__action-btn span {
     display: block;
@@ -725,7 +725,7 @@ body::-webkit-scrollbar-thumb {
     transition: color 0.5s ease;
   }
   .header__action-btn--signin {
-    background-color: #6164ff;
+    background-color: #87CEEB;
     border-radius: 12px;
     padding: 0 16px;
     height: 40px;
@@ -805,7 +805,7 @@ body::-webkit-scrollbar-thumb {
     display: none;
   }
   .header__action-btn svg {
-    fill: #6164ff;
+    fill: #87CEEB;
   }
   .header__action-btn--signin {
     height: 40px;
@@ -914,7 +914,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .main__title h1 a:hover {
-  color: #6164ff;
+  color: #87CEEB;
 }
 .main__title h2 {
   display: flex;
@@ -932,7 +932,7 @@ body::-webkit-scrollbar-thumb {
 .main__title h2 svg {
   width: 26px;
   height: auto;
-  fill: #6164ff;
+  fill: #87CEEB;
   margin-right: 10px;
 }
 .main__title h2 b {
@@ -942,7 +942,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .main__title h2 a:hover {
-  color: #6164ff;
+  color: #87CEEB;
 }
 .main__title h3 {
   display: flex;
@@ -970,7 +970,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 600;
 }
 .main__title p a {
-  color: #6164ff;
+  color: #87CEEB;
   text-decoration: underline;
 }
 .main__title p a:hover {
@@ -1065,7 +1065,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .main__link:hover svg {
-  fill: #6164ff;
+  fill: #87CEEB;
 }
 .main__carousel-wrap {
   position: relative;
@@ -1095,7 +1095,7 @@ body::-webkit-scrollbar-thumb {
 }
 .main__carousel .owl-dot.active span {
   width: 20px;
-  background-color: #6164ff;
+  background-color: #87CEEB;
 }
 .main__nav {
   display: none;
@@ -1163,13 +1163,13 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s ease;
 }
 .main__filter-search button:hover svg {
-  fill: #6164ff;
+  fill: #87CEEB;
 }
 .main__load {
   width: 160px;
   height: 50px;
   border-radius: 12px;
-  background-color: #6164ff;
+  background-color: #87CEEB;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1186,7 +1186,7 @@ body::-webkit-scrollbar-thumb {
   transition-property: color, background-color, border-color, box-shadow, transform, margin-top, height;
 }
 .main__load:hover {
-  color: #6164ff;
+  color: #87CEEB;
   background-color: #222227;
 }
 .main__load[aria-expanded="true"] {
@@ -1228,7 +1228,7 @@ body::-webkit-scrollbar-thumb {
 }
 .main__tabs a.active {
   color: #fff;
-  background-color: #6164ff;
+  background-color: #87CEEB;
 }
 .main__video-bg {
   margin-top: 60px;
@@ -1377,7 +1377,7 @@ body::-webkit-scrollbar-thumb {
     transition: fill 0.5s ease;
   }
   .main__nav:hover svg {
-    fill: #6164ff;
+    fill: #87CEEB;
   }
   .main__nav--prev {
     right: 25px;
@@ -1444,7 +1444,7 @@ body::-webkit-scrollbar-thumb {
   top: 1px;
   bottom: 0;
   width: 34px;
-  background: url("../images/breadcrumb.svg") no-repeat center/16px auto;
+  background: url("https://www.goddessanime.com/assets/images/breadcrumb.svg") no-repeat center/16px auto;
 }
 .breadcrumb__item:hover {
   color: #bdbdbd;
@@ -1469,7 +1469,7 @@ body::-webkit-scrollbar-thumb {
   color: #bdbdbd;
 }
 .breadcrumb a:hover {
-  color: #6164ff;
+  color: #bdbdbd;
 }
 /*==============================
 	Paginator
@@ -1502,7 +1502,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 0;
 }
 .paginator__list li.active a {
-  color: #6164ff;
+  color: #bdbdbd;
   cursor: default;
   font-weight: 500;
 }
@@ -1527,10 +1527,10 @@ body::-webkit-scrollbar-thumb {
   transition: fill 0.5s ease;
 }
 .paginator__list a:hover {
-  color: #6164ff;
+  color: #bdbdbd;
 }
 .paginator__list a:hover svg {
-  fill: #6164ff;
+  fill: #bdbdbd;
 }
 @media (min-width: 768px) {
   .paginator {
@@ -1615,7 +1615,7 @@ body::-webkit-scrollbar-thumb {
 .filter__title button {
   font-size: 12px;
   font-weight: 400;
-  color: #6164ff;
+  color: #bdbdbd;
 }
 .filter__title button:hover {
   color: #eb5757;
@@ -1663,7 +1663,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Inter', sans-serif;
 }
 .filter__select:focus {
-  border-color: #6164ff;
+  border-color: #bdbdbd;
 }
 .filter__input {
   background-color: #222227;
@@ -1678,7 +1678,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Inter', sans-serif;
 }
 .filter__input:focus {
-  border-color: #6164ff;
+  border-color: #bdbdbd;
 }
 .filter__checkboxes {
   position: relative;
@@ -1713,11 +1713,11 @@ body::-webkit-scrollbar-thumb {
 }
 .filter__checkboxes input:not(:checked) + label a,
 .filter__checkboxes input:checked + label a {
-  color: #6164ff;
+  color: #bdbdbd;
 }
 .filter__checkboxes input:not(:checked) + label a:hover,
 .filter__checkboxes input:checked + label a:hover {
-  color: #6164ff;
+  color: #bdbdbd;
   text-decoration: underline;
 }
 .filter__checkboxes input:not(:checked) + label {
@@ -1748,7 +1748,7 @@ body::-webkit-scrollbar-thumb {
   width: 24px;
   height: 24px;
   transition: 0.5s ease;
-  background-color: #6164ff;
+  background-color: #bdbdbd;
   border-radius: 10px;
   border: 6px solid #222227;
 }
@@ -1772,7 +1772,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 50px;
   border-radius: 12px;
-  background-color: #6164ff;
+  background-color: #bdbdbd;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1786,7 +1786,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
 }
 .filter__btn:hover {
-  color: #6164ff;
+  color: #bdbdbd;
   background-color: #222227;
 }
 @media (min-width: 1200px) {
@@ -1858,7 +1858,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
 }
 .home__title span {
-  color: #6164ff;
+  color: #bdbdbd;
 }
 .home__text {
   position: relative;
@@ -2084,12 +2084,12 @@ body::-webkit-scrollbar-thumb {
   color: #6164ff;
 }
 .hero__btn--clr {
-  background-color: #6164ff;
+  background-color: #bdbdbd;
   color: #fff;
 }
 .hero__btn--clr:hover {
   background-color: #16151a;
-  color: #6164ff;
+  color: #bdbdbd;
 }
 @media (min-width: 576px) {
   .hero__slide {
@@ -2153,7 +2153,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 /*==============================
-	Сard
+	ÃÂ¡ard
 ==============================*/
 .card {
   margin-top: 20px;
@@ -2215,7 +2215,7 @@ body::-webkit-scrollbar-thumb {
   transition: background-color 0.5s ease;
 }
 .card__cover--carousel .owl-dot.active span {
-  background-color: #6164ff;
+  background-color: #98FF98;
 }
 .card__cover--video svg {
   position: absolute;
@@ -2245,10 +2245,10 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .card__title a:hover {
-  color: #6164ff;
+  color: #98FF98;
 }
 .card__title:hover {
-  color: #6164ff;
+  color: #98FF98;
 }
 .card__user {
   display: flex;
@@ -2268,7 +2268,7 @@ body::-webkit-scrollbar-thumb {
   bottom: -2px;
   left: 24px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -2288,7 +2288,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 16px;
 }
 .card__user a:hover {
-  color: #6164ff;
+  color: #bdbdbd;
 }
 .card__info {
   display: flex;
@@ -2650,7 +2650,7 @@ body::-webkit-scrollbar-thumb {
   bottom: -2px;
   left: 28px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -2702,7 +2702,7 @@ body::-webkit-scrollbar-thumb {
   bottom: -2px;
   left: 28px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -3033,7 +3033,7 @@ body::-webkit-scrollbar-thumb {
   bottom: -2px;
   left: 42px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -3056,7 +3056,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 5px;
 }
 .sellers-list__user a:hover {
-  color: #6164ff;
+  color: #87CEEB;
 }
 .sellers-list__user span {
   color: #bdbdbd;
@@ -3140,10 +3140,10 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .activity__title a:hover {
-  color: #6164ff;
+  color: #FFC0CB;
 }
 .activity__title:hover {
-  color: #6164ff;
+  color: #FFC0CB;
 }
 .activity__text {
   font-size: 16px;
@@ -3158,7 +3158,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
 }
 .activity__text a:hover {
-  color: #6164ff;
+  color: #FFC0CB;
 }
 .activity__text b {
   font-weight: 500;
@@ -3402,7 +3402,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 .knowledge__title svg {
-  fill: #6164ff;
+  fill: #FFC0CB;
   width: 24px;
   height: auto;
   margin-right: 10px;
@@ -3453,7 +3453,7 @@ body::-webkit-scrollbar-thumb {
   padding-right: 4px;
 }
 .knowledge__list a:hover {
-  color: #6164ff;
+  color: #FFC0CB;
 }
 @media (min-width: 768px) {
   .knowledge {
@@ -3497,7 +3497,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 /*==============================
-	Сollection
+	ÃÂ¡ollection
 ==============================*/
 .collection {
   margin-top: 20px;
@@ -3550,7 +3550,7 @@ body::-webkit-scrollbar-thumb {
   bottom: -2px;
   right: -2px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -3569,7 +3569,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .collection__name a:hover {
-  color: #6164ff;
+  color: #FFC0CB;
 }
 .collection__number {
   display: block;
@@ -3668,7 +3668,7 @@ body::-webkit-scrollbar-thumb {
   bottom: -2px;
   right: -2px;
   border-radius: 50%;
-  background: url("../images/verified.svg") no-repeat center #2f80ed;
+  background: url("https://www.goddessanime.com/assets/images/verified.svg") no-repeat center #2f80ed;
   background-size: 14px auto;
   z-index: 1;
   pointer-events: none;
@@ -3688,7 +3688,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .author__name a:hover {
-  color: #6164ff;
+  color: #87CEEB;
 }
 .author__nickname {
   display: block;
@@ -3766,12 +3766,12 @@ body::-webkit-scrollbar-thumb {
   background-color: #98FF98;
 }
 .author__follow--true {
-  background-color: #6164ff;
+  background-color: #87CEEB;
   color: #fff;
 }
 .author__follow--true:hover {
   background-color: #222227;
-  color: #6164ff;
+  color: #87CEEB;
 }
 .author__social {
   display: flex;
@@ -3802,7 +3802,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 0;
 }
 .author__social a:hover svg {
-  fill: #6164ff;
+  fill: #87CEEB;
 }
 .author__code {
   display: flex;
@@ -3878,7 +3878,7 @@ body::-webkit-scrollbar-thumb {
   transition-property: opacity, transform;
 }
 .author__code button svg {
-  fill: #6164ff;
+  fill: #87CEEB;
   width: 18px;
   height: auto;
   opacity: 0.75;
@@ -3909,11 +3909,11 @@ body::-webkit-scrollbar-thumb {
 .author__link svg {
   width: 20px;
   height: auto;
-  fill: #6164ff;
+  fill: #87CEEB;
   margin-right: 5px;
 }
 .author__link:hover {
-  color: #6164ff;
+  color: #87CEEB;
 }
 @media (min-width: 576px) {
   .author__text {
@@ -4063,7 +4063,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 400;
 }
 .contacts__list a:hover {
-  color: #6164ff;
+  color: #77DD77;
 }
 .contacts__social {
   display: flex;
@@ -4094,7 +4094,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 0;
 }
 .contacts__social a:hover svg {
-  fill: #6164ff;
+  fill: #77DD77;
 }
 @media (min-width: 768px) {
   .contacts__social {
@@ -4700,11 +4700,11 @@ body::-webkit-scrollbar-thumb {
 .footer__links a svg {
   width: 20px;
   height: auto;
-  fill: #6164ff;
+  fill:  #FFE5B4;
   margin-right: 10px;
 }
 .footer__links a:hover {
-  color: #6164ff;
+  color:  #FFE5B4;
 }
 .footer__social {
   display: flex;
@@ -4735,7 +4735,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 0;
 }
 .footer__social a:hover svg {
-  fill: #6164ff;
+  fill:  #FFE5B4;
 }
 .footer__content {
   margin-top: 60px;
@@ -4753,7 +4753,7 @@ body::-webkit-scrollbar-thumb {
   color: #bdbdbd;
 }
 .footer__copyright a:hover {
-  color: #6164ff;
+  color:  #FFE5B4;
 }
 .footer__title {
   display: block;
@@ -5005,7 +5005,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Inter', sans-serif;
 }
 .sign__input:focus {
-  border-color: #6164ff;
+  border-color: #FFC0CB;
 }
 .sign__select {
   background: url("https://www.goddessanime.com/assets/images/arrow2.svg") no-repeat center right 20px #222227;
@@ -5022,7 +5022,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Inter', sans-serif;
 }
 .sign__select:focus {
-  border-color: #6164ff;
+  border-color: #FFC0CB;
 }
 .sign__textarea {
   background-color: #222227;
@@ -5038,7 +5038,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Inter', sans-serif;
 }
 .sign__textarea:focus {
-  border-color: #6164ff;
+  border-color: #FFC0CB;
 }
 .sign__group {
   display: flex;
@@ -5075,11 +5075,11 @@ body::-webkit-scrollbar-thumb {
 }
 .sign__group--checkbox input:not(:checked) + label a,
 .sign__group--checkbox input:checked + label a {
-  color: #6164ff;
+  color: #FFC0CB;
 }
 .sign__group--checkbox input:not(:checked) + label a:hover,
 .sign__group--checkbox input:checked + label a:hover {
-  color: #6164ff;
+  color: #FFC0CB;
   text-decoration: underline;
 }
 .sign__group--checkbox input:not(:checked) + label:before,
@@ -5158,10 +5158,10 @@ body::-webkit-scrollbar-thumb {
 }
 .sign__text a {
   position: relative;
-  color: #6164ff;
+  color: #FFC0CB;
 }
 .sign__text a:hover {
-  color: #6164ff;
+  color: #FFC0CB;
   text-decoration: underline;
 }
 .sign__text--small {
@@ -5299,7 +5299,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 .sign__radio input:checked + label:before {
-  border-color: #6164ff;
+  border-color:  #C8A2C8;
 }
 .sign__file {
   position: relative;
