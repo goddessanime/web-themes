@@ -11,7 +11,7 @@
 
 This repository contains all the public website themes for https://goddessanime.com. The themes are sorted alphabetically by their first letter (A, B, C, D, etc.).
 
-To purchase a theme, please visit https://www.goddessanime.com/theme/<CARD_ID>, where `<CARD_ID>` is the unique identifier for the theme you want to purchase.
+To purchase a theme, please visit https://www.goddessanime.com/theme/<THEME_ID>, where `<THEME_ID>` is the unique identifier for the theme you want to purchase.
 
 In each folder, you will find the following files:
 
