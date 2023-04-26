@@ -18,11 +18,6 @@ In each folder, you will find the following files:
 - A JSON file
 - A CSS file
 
-<br>
-<br>
-<br>
-<br>
-
 ## Start Script
 
 To create a new theme, you can use the following Python file `main.py` to generate the required files.
@@ -32,6 +27,11 @@ python3 .\main.py template
 ```
 
 It will ask you some questions about the theme and then generate the required file.
+
+<br>
+<br>
+<br>
+<br>
 
 <div align="center" style="font-size: 12px; color: rgba(0, 0, 0, 0.5);">
   <p>Please note that these themes are specifically designed for <strong>goddessanime.com</strong> and cannot be used on other websites.</p>
