@@ -2,8 +2,8 @@
   <h1>Goddess Anime Website Themes</h1>
   <p>🎨 View all the public website themes for https://goddessanime.com</p>
   
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/goddessanime/web-themes?color=%23b392f0&style=flat-square">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/goddessanime/web-themes?color=%23b392f0&style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/goddessanime/web-themes?color=%2523b392f0&style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/goddessanime/web-themes?color=%2523b392f0&style=flat-square">
   <a href="https://github.com/goddessanime/web-themes/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/goddessanime/web-themes?color=%23b392f0&style=flat-square"></a>
 </div>
 
